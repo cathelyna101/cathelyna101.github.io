@@ -1,0 +1,26 @@
+h1{color: aquamarine;
+background: #e69500;
+text-align: center;
+font-family: 'Modak', cursive;
+font-size: 50pt;
+font-weight: 500;}
+h2{font-family: 'Fredoka One',cursive;
+color: orange;
+background-color:#ffcccc;}
+h3{font-family: 'Fredoka One',cursive;
+color: orange;
+background-color:#ffcccc;}
+p{color: #8980ef;
+  font-family: 'Dosis',sans-serif}
+b{color: purple;
+font-weight: 900}
+li{font-family: 'Dosis',sans-serif;
+list-style: square;
+background-color:#bfd4df;
+color:#301860}
+a{font-family: 'Dosis',sans-serif;
+color: #7b9394}
+a:hover{color: pink}
+th{color:blue;font-family: 'Dosis',sans-serif;}
+address{font-family: 'Dosis',sans-serif;
+color: #7b9394}
