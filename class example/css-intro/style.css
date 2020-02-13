@@ -1,9 +1,17 @@
 h1{color: aquamarine;
 background: #e69500;
 text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 70pt
+font-family: 'Modak', cursive;
+font-size: 70pt;
+font-weight: 500;
 }
-p{color: #e69500;
-font-family:fantasy, Arial}
-s
+p{color: #8980ef;
+  background-color:#ffcccc;
+  font-family: 'Dosis', sans-serif}
+b{color: blue;
+font-weight: 900}
+li{font-family: 'Dosis', sans-serif;
+list-style: square}
+a{font-family: 'Dosis', sans-serif;
+color: #7b9394}
+a:hover{color: pink}
