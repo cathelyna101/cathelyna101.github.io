@@ -3,7 +3,9 @@ background: #e69500;
 text-align: center;
 font-family: 'Modak', cursive;
 font-size: 50pt;
-font-weight: 500;}
+font-weight: 500;
+}
+h1:hover{text-shadow: 2px 2px 2px yellow, 0 0 25px black, 0 0 5px orange;}
 img{align-content:center;border-style:solid;border-color:aquamarine;border-width:thick;}
 .center {
   display: block;
