@@ -33,7 +33,6 @@ a:hover{color: yellow}
 th{color:blue;font-family: 'Dosis',sans-serif;}
 address{font-family: 'Dosis',sans-serif;
 color: #7b9394}
-.Jobs{Color:red}
 img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
@@ -52,3 +51,4 @@ img:hover {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+.Jobs{color: red;font-weight: bold}
