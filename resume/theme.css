@@ -12,7 +12,7 @@ h1 {
 }
 
 .Date {
-  font-style: italic
+  font-style: italic; color: grey
 }
 
 h1:hover {
