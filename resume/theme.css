@@ -11,8 +11,7 @@ h1 {
   color: red
 }
 
-.Date {
-  font-style: italic; color: grey
+.Date {font-style:italic; color: #673147
 }
 
 h1:hover {
