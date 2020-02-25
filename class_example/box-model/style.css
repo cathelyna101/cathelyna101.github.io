@@ -1,0 +1,22 @@
+body {
+  background-color: aquamarine;max-width: 40%;margin: 0 auto
+}
+
+header {
+  background-color: yellow;
+  margin: 50px;
+  padding: 30px;
+  /*padding is for space between content and border*/
+  margin: 50px;
+  /*margin is space between border and other boxes*/
+  border: 10px solid teal;
+  /*height and widht is for content itself*/
+  height: 100px;
+  width: 400px
+}
+.Wed {background-color: yellow;padding: 40px 20px 10px 15px;margin: -40px 9000px 22px 13px
+}
+/*if you have 2 values of padding, they are applied in pairs. top/bottom, right/left--in*/
+main {height:100%;width: 100%;
+background-color: pink; padding:30px 50px}
+footer{padding: 50px;background-color: red;border: 10px solid green}
