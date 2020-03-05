@@ -1,2 +1,9 @@
 .Corona{color:red}
 .whatisit{color:blue}
+.virus{grid-column: 1/2;grid-row:2/3}
+.people{grid-column: 2/3;grid-row:3/4}
+a:hover {color: teal}
+.Symptoms {column-count: 2}
+
+h3{font-family: sans-serif;}
+body{background-color: pink}
