@@ -1,24 +1,115 @@
+.whatisit {
+  color: blue
+}
 
-.whatisit{color:blue}
-.virus{grid-column: 1/2;grid-row:2/3}
-.people{grid-column: 2/3;grid-row:3/4}
-a:hover {color: teal}
-a{font-family:sans-serif;}
-.symptoms{grid-column: 2/3;grid-row: 1/2;}
-.g2-text{grid-column: 5/6;grid-row: 2/3;}
-h3,h2,h1{font-family: sans-serif;}
-p{font-family: sans-serif}
-body{background-color: #e9dcdc}
-li{font-family: sans-serif}
-h1{color: black;
-font-family: sans-serif;
-padding: 70px;
-text-align: center;
-background-color: #de6868}
-.g1-text{column-count: 2}
-p,li,a,h2{font-family: 'Cormorant Garamond', serif;}
-.corona{font-family: 'Playfair Display', serif;font-size: 45pt;box-sizing: border-box;border-style: solid;border-color: red}
+.virus {
+  grid-column: 1/2;
+  grid-row: 2/3
+}
+
+.people {
+  grid-column: 2/3;
+  grid-row: 3/4
+}
+
+a:hover {
+  color: red;
+  font-size: 15pt
+}
+h2{color: #cc0000}
+a {
+  font-family: sans-serif;
+}
+.demopix {
+  grid-column: 1/2;
+  grid-row: 1/2
+}
+.symptoms {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.g2-text {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+.symptomlist{grid-column: 6/7;grid-row: 2/3}
+h3, h2, h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif
+}
+
+body {
+  background-color: #e9dcdc
+}
+
+li {
+  font-family: sans-serif
+}
+
+h1 {
+  color: black;
+  font-family: sans-serif;
+  padding: 70px;
+  text-align: center;
+  background-color: #de6868
+}
+
+
+
+.g1-text2 {
+  column-count: 2
+}
+
+.g1-text {
+  column-count: 2
+}
+
+h2 {
+  font-weight: bold
+}
+
+p, li, a, h2, h3 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+p, li {
+  color: white
+}
+
+p {
+  background-color: #de6868
+}
+
+.corona {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  font-size: 45pt;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: red
+}
+
 nav a {
   margin-right: 140px;
   font-family: monospace;
+}
+
+a {
+  color: cornsilk
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-image: url("pixels.jpg");
+  background-color: #cccccc;
 }
