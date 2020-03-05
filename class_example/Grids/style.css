@@ -1,10 +1,36 @@
-h1 {
+.h1 {
   color: purple;
-  font-family: sans-serif
+  font-family: sans-serif;
+  padding: 70px;
+  text-align: center;
+  background-color: yellow
 }
-body{width:900px;margin:0 auto}
+
+nav a {
+  margin-right: 140px;
+  font-family: monospace;
+}
+
+.darkspacestext {
+  grid-column: 2/3;
+  grid-row: 1/2
+}
+
+a:hover {
+  color: yellow
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: teal
+}
+
 .grid-container-1 {
-  display: grid;width:400px
+  display: grid;
+  width: 300px;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px
 }
 
 .g1-img-1 {
@@ -17,6 +43,8 @@ body{width:900px;margin:0 auto}
   /*
   grid-row-start:1;
   grid-row-end:2;*/
+  grid-column-gap: 20px;
+  grid-row-gap: 20px
 }
 
 .g1-img-2 {
@@ -33,3 +61,34 @@ body{width:900px;margin:0 auto}
   grid-column: 2/3;
   grid-row: 2/3
 }
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.g2-hed {
+  grid-column: 1/2;
+}
+.g4-hed{grid-column:1/2}
+.hi {
+  column-count: 2
+}
+
+.text {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2
+}
+
+.g3-text {
+  column-count: 2
+}
+
+.dogs {
+  grid-column: 1/2;
+  grid-row: 1/2
+}
+
+.#about
