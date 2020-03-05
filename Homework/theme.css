@@ -17,4 +17,8 @@ text-align: center;
 background-color: #de6868}
 .g1-text{column-count: 2}
 p,li,a,h2{font-family: 'Cormorant Garamond', serif;}
-.corona{font-family: 'Playfair Display', serif;font-size: 60pt;box-sizing: border-box;border-style: solid;border-color: red}
+.corona{font-family: 'Playfair Display', serif;font-size: 45pt;box-sizing: border-box;border-style: solid;border-color: red}
+nav a {
+  margin-right: 140px;
+  font-family: monospace;
+}
