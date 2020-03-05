@@ -11,9 +11,6 @@ nav a {
   font-family: monospace;
 }
 
-.darkspacestext {
-  grid-column: 2/3;
-  grid-row: 1/2
 }
 
 a:hover {

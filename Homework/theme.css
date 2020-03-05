@@ -1,1 +1,20 @@
-.Corona{color:red}
+
+.whatisit{color:blue}
+.virus{grid-column: 1/2;grid-row:2/3}
+.people{grid-column: 2/3;grid-row:3/4}
+a:hover {color: teal}
+a{font-family:sans-serif;}
+.symptoms{grid-column: 2/3;grid-row: 1/2;}
+.g2-text{grid-column: 5/6;grid-row: 2/3;}
+h3,h2,h1{font-family: sans-serif;}
+p{font-family: sans-serif}
+body{background-color: #e9dcdc}
+li{font-family: sans-serif}
+h1{color: black;
+font-family: sans-serif;
+padding: 70px;
+text-align: center;
+background-color: #de6868}
+.g1-text{column-count: 2}
+p,li,a,h2{font-family: 'Cormorant Garamond', serif;}
+.corona{font-family: 'Playfair Display', serif;font-size: 60pt;box-sizing: border-box;border-style: solid;border-color: red}
