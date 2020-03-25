@@ -28,7 +28,7 @@ h2 {
 }
 
 a {
-  font-family: sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .demopix {
@@ -104,12 +104,12 @@ p, li {
 
 nav a {
   margin-right: 140px;
-  font-family: monospace;
+  font-family: 'Press Start 2P', cursive;
   font-size: 20pt
 }
 
 a {
-  color: cornsilk
+  font-family: 'Press Start 2P', cursive;
 }
 
 .center {
@@ -148,4 +148,9 @@ body {
 
 .map {
   margin-top: 100px;
+}
+
+.newss {
+  display: grid;
+  grid-template-columns: 1fr 1fr
 }
