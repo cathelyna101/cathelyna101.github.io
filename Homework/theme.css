@@ -9,7 +9,8 @@
 }
 */
 .gallery {
-  display: grid
+  display: grid;
+  grid-template-columns: 350px 350px;
 }
 
 .korona1 {
