@@ -1,13 +1,21 @@
+body {
+  background-image: url("pixels.jpg");
+}
+
+.map {
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .whatisit {
   color: blue
 }
 
-/*
-.virus {
-  grid-column: 1/2;
-  grid-row: 2/3
-}
-*/
 .gallery {
   display: grid;
   grid-template-columns: 350px 350px;
@@ -68,10 +76,6 @@ p {
   font-family: sans-serif
 }
 
-body {
-  background-color: #e9dcdc
-}
-
 li {
   font-family: sans-serif
 }
@@ -126,18 +130,6 @@ nav a {
   border-bottom: 20px
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-body {
-  background-image: url("pixels.jpg");
-  background-color: #cccccc;
-}
-
 .symptoms-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -184,10 +176,6 @@ body {
 .transmission-grid {
   display: grid;
   grid-template-columns: 1fr 1fr
-}
-
-.map {
-  margin-top: 100px;
 }
 
 .newss {
