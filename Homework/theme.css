@@ -2,38 +2,46 @@
   color: blue
 }
 
+/*
 .virus {
   grid-column: 1/2;
   grid-row: 2/3
 }
+*/
+.gallery {
+  grid-column: 1/2;
+  grid-row: 1/2
+}
 
+/*
 .people {
   grid-column: 2/3;
   grid-row: 3/4
 }
-
+*/
 a:hover {
   color: red;
-  font-size: 15pt
 }
-h2{color: #cc0000}
+
+h2 {
+  color: #cc0000
+}
+
 a {
   font-family: sans-serif;
 }
+
 .demopix {
   grid-column: 1/2;
   grid-row: 1/2
 }
-.symptoms {
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
 
-.g2-text {
+.symptoms {}
+
+/* .g2-text {display: grid;
   grid-column: 5/6;
   grid-row: 2/3;
-}
-.symptomlist{grid-column: 6/7;grid-row: 2/3}
+} */
 h3, h2, h1 {
   font-family: sans-serif;
 }
@@ -58,30 +66,30 @@ h1 {
   background-color: #de6868
 }
 
-
-
-.g1-text2 {
-  column-count: 2
-}
-
-.g1-text {
-  column-count: 2
-}
-
 h2 {
   font-weight: bold
 }
 
 p, li, a, h2, h3 {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Press Start 2P', cursive;
+  font-kerning: 15px
 }
 
 p, li {
   color: white
 }
 
-p {
-  background-color: #de6868
+.g1-text, .g1-text2 {}
+
+.g2-text, .symptomlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2/3;
+  grid-row: 1/2
+}
+
+.p2p {
+  grid-template-columns: 1fr 1fr
 }
 
 .corona {
@@ -90,12 +98,14 @@ p {
   font-size: 45pt;
   box-sizing: border-box;
   border-style: solid;
-  border-color: red
+  border-color: black;
+  align-items: start
 }
 
 nav a {
   margin-right: 140px;
   font-family: monospace;
+  font-size: 20pt
 }
 
 a {
@@ -112,4 +122,30 @@ a {
 body {
   background-image: url("pixels.jpg");
   background-color: #cccccc;
+}
+
+.symptoms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Prevention, .list-dos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+
+.grid-container-intro {
+  background-color: #de6868;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+}
+
+.transmission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.map {
+  margin-top: 100px;
 }
