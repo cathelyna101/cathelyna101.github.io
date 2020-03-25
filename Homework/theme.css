@@ -94,8 +94,6 @@ p, li {
   color: white
 }
 
-.g1-text, .g1-text2 {}
-
 .g2-text, .symptomlist {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -120,7 +118,9 @@ p, li {
 nav a {
   margin-right: 20px;
   font-family: 'Press Start 2P', cursive;
-  font-size: 10pt
+  font-size: 10pt;
+  border: solid;
+  border-bottom: 20px
 }
 
 .center {
