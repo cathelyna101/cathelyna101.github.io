@@ -1,0 +1,152 @@
+body {
+  background-image: url("images/pixels.jpg");
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16pt;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.65;
+  font-kerning: 15px;
+  color: white;
+}
+
+/* Generic Styles start here */
+h2 {
+  color: #cc0000;
+}
+
+.black {
+  color: black;
+}
+
+.bg-red {
+  background-color: #de6868;
+}
+
+/* Generic styles end here */
+/* Header code starts here */
+.corona {
+  color: white;
+  padding: 70px;
+  text-align: center;
+  font-size: 45pt;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  align-items: start
+}
+
+nav a {
+  margin-right: 15px;
+  font-size: 12pt;
+  border: solid;
+  border-bottom: 20px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/* Header code ends here */
+.map {
+  max-width: 50%;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Code for What is it section starts here */
+.whatisit {
+  color: blue;
+}
+
+.grid-container-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+  padding: 15px;
+}
+
+/* Code for What is it section end here */
+/* Section for Symptoms starts here*/
+.symptoms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.symptoms-demopix {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.demopix {
+  width: 100%;
+}
+
+/* Section for symptoms ends here */
+/* Code for transmission starts here */
+.transmission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  padding: 15px;
+}
+
+/* Code for transmission ends here */
+/* Code for prevention starts here */
+.prevention-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  padding: 15px;
+}
+
+.prevention-text {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.prevention-do {
+  grid-column: 1/2;
+  grid-row: 2/3
+}
+
+.prevention-dont {
+  grid-column: 2/3;
+  grid-row: 2/3
+}
+
+/* code for prevention ends here */
+/* Footer styles start here */
+.footer-map {
+  width: 100%;
+}
+
+footer section {
+  padding: 15px;
+}
+
+/* Footer styles end here */
+@media only screen and (max-width:767px) {
+  .bg-red, h2 {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+
+  .grid-container-intro {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    padding: 15px;
+  }
+
+  .symptoms-grid {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+  }
+
+  .demopix {
+    margin-top: 2%;
+  }
+}
