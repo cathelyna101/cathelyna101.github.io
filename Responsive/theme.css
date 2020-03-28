@@ -153,6 +153,10 @@ footer section {
     margin-top: 2%;
   }
 
+  .h1 {
+    font-size: 5px;
+  }
+
   .transmission-grid {
     grid-template-columns: 1fr;
   }
