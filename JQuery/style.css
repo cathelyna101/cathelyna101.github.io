@@ -5,3 +5,8 @@ h1, li, p, h2, h3 {
 #catpic {
   display: none
 }
+
+.cat3 {
+  height: 200;
+  width: auto;
+}
