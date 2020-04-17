@@ -1,12 +1,12 @@
-h1, li, p, h2, h3 {
+li, p, h2, h3 {
   font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
 }
 
 #catpic {
   display: none
 }
-
-.cat3 {
-  height: 200;
-  width: auto;
 }
