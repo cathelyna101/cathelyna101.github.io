@@ -3,6 +3,10 @@ li, p, h2, h3, a {
   color: white;
 }
 
+h3 {
+  color: #eed1d6;
+}
+
 p {
   font-size: 15pt;
 }
@@ -16,8 +20,9 @@ h1 {
   font-size: 25pt;
   box-sizing: border-box;
   border-style: solid;
-  border-color: black;
-  align-items: start
+  border-color: white;
+  align-items: start;
+  border-width: 70px;
 }
 
 #catpic {
