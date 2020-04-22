@@ -3,6 +3,10 @@ li, p, h2, h3, a {
   color: white;
 }
 
+p {
+  font-size: 15pt;
+}
+
 h1 {
   font-family: 'Eater', cursive;
   color: white;
