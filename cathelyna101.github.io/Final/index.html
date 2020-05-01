@@ -7,39 +7,37 @@
             <title>IndoEats</title>
             <link rel="stylesheet" href="theme.css">
             <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amiri&family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
       </head>
 
       <body>
-            <div class="top">
+            <div id="tops" class="top">
                   <img class="logos" src="Image/INDOEATS.PNG" alt="logo" width="200" height="200">
-                  <p class="makan">Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan</p>
+                  <p class="makan">Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan Makan</p>
             </div>
             <div class="topimage">
                   <img id="tumpengg" class="tumpeng" src="Image/title.jpg" alt="ex" width="1000" height="600">
                   <p class="lunch">IndoEats</p>
 
             </div>
-            <a href="#">Home</a>
-            <a href="#rendang">Recipes</a>
-            <a href="#">Our Story</a>
-            <img src="" alt="">
+            <nav>
 
-            <div class="story">
-                  <h2>Our Story</h2>
-                  <img src="" alt="">
 
-                  <p class="intro">IndoEats is a magazine for homecooks created by Cathelyna Suherman in 2020. Here, you’ll see recipes from around the world, with an emphasis on modern Indonesian cuisine. Living in Indonesia for 19 years, my interest in my
-                        cultural cuisine
-                        has
-                        been a journey. I began to explore my food journey the first time when I was 15, and learnt that I enjoyed cooking very much, especially exploring my culture. </p>
-                  <h2>An Indonesian tale</h2>
-                  <p class="intro2">From a restaurant serving burgers and pizzas made with local noodles to a social media star giving street food a touch of haute cuisine, a new wave of innovative chefs are putting a modern twist on Indonesia’s traditional
-                        fare.
 
-                        New eateries have sprung up rapidly in recent years in the capital Jakarta offering a wide array of foreign foods to cater to a growing consumer class which has emerged after a long economic boom.
+                  <a href="#tops">Home</a>
+                  <a href="#rendang">Recipes</a>
+                  <a href="#stories">Our Story</a>
 
-                        But rather than focus entirely on cuisine from overseas, some chefs decided to fuse the new influences with age-old Indonesian foods.</p>
-            </div>
+            </nav>
+            <h2 class="intro">An Indonesian tale</h2>
+            <p class="intro">From a restaurant serving burgers and pizzas made with local noodles to a social media star giving street food a touch of haute cuisine, a new wave of innovative chefs are putting a modern twist on Indonesia’s traditional
+                  fare.
+
+                  New eateries have sprung up rapidly in recent years in the capital Jakarta offering a wide array of foreign foods to cater to a growing consumer class which has emerged after a long economic boom.
+
+                  But rather than focus entirely on cuisine from overseas, some chefs decided to fuse the new influences with age-old Indonesian foods.</p>
+
             <!-- Container for the image gallery -->
             <div class="container">
 
@@ -95,7 +93,7 @@
                               <img class="demo cursor" src="Image/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Colors of the Waffle">
                         </div>
                         <div class="column">
-                              <img class="demo cursor" src="Image/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="The essentials and where to find the best Padang food">
+                              <img class="demo cursor" src="Image/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Where to find the best Padang food in Jakarta">
                         </div>
                         <div class="column">
                               <img class="demo cursor" src="Image/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Padang Merdeka">
@@ -111,8 +109,8 @@
 
             <br>
 
-            <h2 id="rendang">Traditional Rendang Minang</h2>
-            <img class="rendangimg" src="Image/rendang.jpg" alt="rendang">
+            <h2>Traditional Rendang Minang</h2>
+            <img id="rendang" class="rendangimg" src="Image/rendang.jpg" alt="rendang">
             <p class="rendangintro">Rendang Padang original Minang is one of the original dishes of the archipelago that has been famous in foreign countries. Even based on the results of pooling from one of the news websites from England, rendang Minang
                   native Padang was once chosen as the most delicious food in the world.
             </p>
@@ -189,14 +187,14 @@
 
                   </section>
             </div>
-            </div>
+
 
 
 
             <h2>An Indonesian "Mentai" Rice: Rice On The Block</h2>
             <div class="mentaii">
 
-                  <img src="Image/mentaipic.JPG" alt="mentai" width="460" height="340">
+                  <img class="gyu" src="Image/mentaipic.JPG" alt="mentai" width="460" height="340">
                   <p class="para">The beginning of the creation of mentai sauce itself was inspired by Western food styles where mentaiko was combined with mayonnaise to produce a thick texture. The character tastes quite creamy, but there is a sense of umami
                         which is none
                         other than the egg of the kod aka mentaiko itself.
@@ -208,7 +206,7 @@
             <div class="mentaiii">
 
 
-                  <img src="Image/PROMO2.jpg" alt="promo" height="400" width="400">
+                  <img class="gyu" src="Image/PROMO2.jpg" alt="promo" height="400" width="400">
                   <p class="para">The funny thing is, there are also many mentai sauce sellers who use tobiko as the main ingredient because cod farming is quite difficult to find in Indonesia. It tastes a little different, but it's still tasty. Rice on the
                         Block, is an
                         online food delivery service where we sell Indonesian mentai rice. It was established in the middle of the pandemic out of boredom, and is unexpectedly quite high in demand. The ingredients we use are of good quality, like the fresh Norwegian
@@ -220,12 +218,15 @@
 
             <div class="sate">
                   <h2 class="para">Tale of Sate Ayam</h2>
-                  <img class="imm" src="Image/sate.jpg" alt="promo" height="400" width="550">
+                  <section id="satesate">
+                        <img class="imm" src="Image/sate.jpg" alt="promo" height="400" width="550">
 
-                  <p class="para">Sate, juicy slices of marinated meat on thin bamboo skewers grilled to perfection on a charcoal open fire and accompanied by a delectably savoury sauce - it is no wonder that this dish is one of President Barack Obama’s
-                        childhood
-                        favourites.Sate (or more commonly known as Satay) is undoubtedly one of Indonesia’s most famous dishes. It is also one of those dishes that most South East Asian countries claim as their own. However historically, it can be traced back to
-                        Java as the place where the Indian kebab, imported by Muslim traders, first took on a distinctly more eastern flavour.</p>
+                        <p class="para">Sate, juicy slices of marinated meat on thin bamboo skewers grilled to perfection on a charcoal open fire and accompanied by a delectably savoury sauce - it is no wonder that this dish is one of President Barack Obama’s
+                              childhood
+                              favourites.Sate (or more commonly known as Satay) is undoubtedly one of Indonesia’s most famous dishes. It is also one of those dishes that most South East Asian countries claim as their own. However historically, it can be traced back to
+                              Java as the place where the Indian kebab, imported by Muslim traders, first took on a distinctly more eastern flavour.</p>
+
+                  </section>
 
                   <br>
                   <p class="para">In the 19th century, many Tamil and Gujarat Muslim traders came to Indonesia. The Indian traders brought processed grilled goat meat called kebab. At first, the Indonesian people cooked meat by boiling it. But after getting to
@@ -263,16 +264,15 @@
                   <div class="gyudon-container">
 
 
-                        <img class="imm" src="Image/gyudon.jpg" alt="gyu" width="300" height="400">
-                        <p class="para">Gyudon is basically a dish of thinly sliced fatty beef, cooked in a slightly sweet mixture of mirin and soy sauce and served over rice. Sake is also sometimes added for extra flavor. At the place I went to in Beijing, the
+                        <img class="gyu" src="Image/gyudon.jpg" alt="gyu" width="420" height="550">
+                        <p class="para1">Gyudon is basically a dish of thinly sliced fatty beef, cooked in a slightly sweet mixture of mirin and soy sauce and served over rice. Sake is also sometimes added for extra flavor. At the place I went to in Beijing, the
                               would
                               serve it
                               piping hot with a raw egg yolk on top.</p>
+
                   </div>
                   <br>
-                  <p class="para"> That egg yolk?</p>
-                  <br>
-                  <p class="para"> Best. Thing. Ever.</p>
+
                   <p class="para">
                         It would warm up as you mixed it in with the hot beef and rice, imparting a richness to the dish that couldn’t be beat––not even by the beckoning call of hand-pulled noodles or Yunnan hot pot. Needless to say, I frequented that particular
                         spot at least once every couple weeks.
@@ -287,8 +287,14 @@
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
             <script src="main.js"></script>
 
-            <div class="">
+            <div id="stories" class="story">
+                  <h2 class="intro">Our Story</h2>
 
+
+                  <p class="intro">IndoEats is a magazine for homecooks created by Cathelyna Suherman in 2020. Here, you’ll see recipes from around the world, with an emphasis on modern Indonesian cuisine. Living in Indonesia for 19 years, my interest in my
+                        cultural cuisine
+                        has
+                        been a journey. I began to explore my food journey the first time when I was 15, and learnt that I enjoyed cooking very much, especially exploring my culture. </p>
             </div>
       </body>
       <footer> <img class="logos" src="Image/INDOEATS.PNG" alt="logo" width="200" height="200"></footer>
