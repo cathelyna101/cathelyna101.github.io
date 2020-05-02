@@ -1,0 +1,334 @@
+.Ingredients {
+  font-family: sans-serif;
+  color: white;
+}
+
+.gyu {
+  margin-left: 20%;
+}
+
+.imm {
+  margin-left: 8%;
+}
+
+img {
+  border-width: thick;
+  border-color: white;
+  border-style: solid;
+}
+}
+
+.imm {
+  max-width: 50%;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30%;
+}
+
+.Ingredients {
+  padding-left: 10%;
+}
+
+.logos {
+  border-style: none;
+}
+
+.Method {
+  padding-left: 10%;
+}
+
+nav a {
+  border-width: thin;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  margin: 5%;
+  font-size: 20pt;
+}
+
+a:hover {
+  color: red;
+}
+
+.intro {
+  max-width: 80%;
+  padding-left: 30%;
+}
+
+h2 {
+  max-width: 60%;
+  padding-left: 30%;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.intro2 {
+  max-width: 60%;
+  padding-left: 30%;
+}
+
+.para {
+  max-width: 80%;
+  padding-left: 10%;
+}
+
+.rendangintro {
+  max-width: 60%;
+  padding-left: 30%;
+}
+
+.makan {
+  src: url(Astronaut.otf);
+  max-width: 100%;
+  padding-left: 10%;
+}
+
+.lunch {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100pt;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.method {
+  display: grid;
+  color: blue;
+}
+
+.tumpeng {
+  max-width: 100%;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, p, li, h3 {
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  word-spacing: 2px;
+  line-height: 1.6;
+}
+
+.makan {
+  max-width: 500%;
+}
+
+body {
+  background-color: black;
+}
+
+.rendangimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#satesate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#rendang {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rendang2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mentaii, .mentaiii {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.imgg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.6;
+  word-spacing: 2px
+}
+
+.here {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.6;
+  word-spacing: 2px
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gyudon-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width:767px) {
+  #rendang {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .rendang2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mentaii, .mentaiii {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .burgushi {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+  }
+
+  .burgerpic {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .burgerpic2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #satesate {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .one {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .gyudon-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .two {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    image {
+      max-width: 40%;
+    }
+
+    .tags {
+      margin: none;
+    }
