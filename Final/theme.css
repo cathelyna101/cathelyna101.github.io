@@ -1,6 +1,7 @@
 .Ingredients {
   font-family: sans-serif;
   color: white;
+  padding-left: 10%;
 }
 
 .gyu {
@@ -9,16 +10,6 @@
 
 .imm {
   margin-left: 8%;
-}
-
-img {
-  border-width: thick;
-  border-color: white;
-  border-style: solid;
-}
-}
-
-.imm {
   max-width: 50%;
   display: block;
   margin-top: 100px;
@@ -28,11 +19,15 @@ img {
   padding-left: 30%;
 }
 
-.Ingredients {
-  padding-left: 10%;
+img {
+  border-width: thick;
+  border-color: white;
+  border-style: solid;
+}
 }
 
-.logos {
+#logoss {
+  position: absolute;
   border-style: none;
 }
 
@@ -44,13 +39,15 @@ nav a {
   border-width: thin;
   font-family: 'Libre Baskerville', serif;
   color: white;
-  margin: 5%;
+  margin: 2%;
+  margin-left: 17%;
   font-size: 20pt;
-  background-color: green;
+  background-color: red;
 }
 
 a:hover {
   color: red;
+  background-color: white;
 }
 
 .intro {
