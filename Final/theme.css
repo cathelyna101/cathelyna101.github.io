@@ -16,6 +16,15 @@
   width: 20%;
 }
 
+.tumpeng {
+  max-width: 100%;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .gyu {
   margin-left: 20%;
 }
@@ -99,15 +108,6 @@ h2 {
 .method {
   display: grid;
   color: blue;
-}
-
-.tumpeng {
-  max-width: 100%;
-  display: block;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1, h2, p, li, h3 {
