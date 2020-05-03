@@ -1,3 +1,4 @@
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -29,6 +30,8 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+$(document).ready(function() {
+  console.log("page loaded");
 $("#tumpengg").mouseover(function(){
   $(".tumpeng").css("border-color", "red");
 })
@@ -42,3 +45,12 @@ $("#tumpengg").mouseleave(function(){
 
   $(".makan").mouseleave(function(){
     $(".makan").css("font-size", "12pt");})
+
+    $(".logo").click(function(){
+      $("img").animate({right:'250px'});})
+
+      $(".logo").click(function(){
+        $("img").animate({left:'250px'});})
+
+
+    });
