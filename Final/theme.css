@@ -49,7 +49,7 @@ img {
   padding-left: 10%;
 }
 
-nav a {
+nav a, .here {
   border-width: thin;
   font-family: 'Libre Baskerville', serif;
   color: white;
