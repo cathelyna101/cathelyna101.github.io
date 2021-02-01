@@ -1,17 +1,42 @@
+#about:hover {
+  color: pink;
+}
+
 h1 {
   color: aquamarine;
-  background: #e69500;
   text-align: center;
   font-family: 'Modak', cursive;
-  font-size: 50pt;
+  font-size: 100pt;
   font-weight: 500;
+}
+
+.titles {
+  background: #e69500
+}
+
+.title {
+  font-size: 30pt;
 }
 
 .Jobs {
   color: red
 }
 
-.Date {font-style:italic; color: blue
+.Date {
+  font-style: italic;
+  color: blue
+}
+
+#paragraph {
+  display: none;
+}
+
+#headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
 }
 
 h1:hover {
@@ -50,7 +75,8 @@ h3 {
 
 p {
   color: #8980ef;
-  font-family: 'Dosis', sans-serif
+  font-family: 'Dosis', sans-serif;
+  font-size: 30pt;
 }
 
 b {
@@ -83,7 +109,11 @@ address {
   font-family: 'Dosis', sans-serif;
   color: #7b9394
 }
-.area{font-style: italic}
+
+.area {
+  font-style: italic
+}
+
 img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
